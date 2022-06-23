@@ -82,7 +82,7 @@ const MapElement = ({ nftBounds }) => {
       maxZoom={5}
       style={{ width: "100vw", height: "80vh" }}
       mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
-      mapStyle="mapbox://styles/mapbox/streets-v9"
+      mapStyle="mapbox://styles/mapbox/light-v10"
     >
       <Source id="nft-data" type="geojson" data={nftBounds}>
         <Layer {...colorLayer} />

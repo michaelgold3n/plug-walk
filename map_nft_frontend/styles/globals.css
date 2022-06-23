@@ -2,3 +2,110 @@
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+  }
+
+body {
+    background: rgb(175, 177, 253) 15%;
+    background-repeat: no-repeat;
+
+  cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAD5JREFUGNN1j9EKADAIAnP//9GjFq6w7iU4DNRsB06cb44TJ+UzYUcniqnqoA6ag/62JhjKIU0rxx1lKveuXJ5UAQs/G/2vAAAAAElFTkSuQmCC),auto;
+  }
+
+  .intro {
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 600;
+    font-size: medium;
+    padding: 5px;
+  }
+
+  .woa {
+    font-weight: 600;
+    font-size: large;
+  }
+  .about {
+    text-align: center;
+    margin-top: 65px;
+  
+  }
+
+  .foo {
+    font-weight: 680;
+    font-size: medium;
+  }
+
+
+  .about {
+    text-align: center;
+    margin-top: -190px;
+    padding:10px;
+    
+  }
+  
+  
+  .align-right { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+    width: 40%;
+    margin-top: 38px;
+    margin-bottom: 17px;
+    border-radius: 10px;
+  
+  }
+  
+  .align-left { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 18%;
+    width: 40%;
+    margin-top: 38px;
+    margin-bottom: 17px;
+    border-radius: 10px;
+  
+  }
+  
+  
+  
+  .about h1 {
+    font-size: 2em;
+    font-family: "Odibee-Sans";
+  }
+  
+  .descr {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 15px;
+    margin-left: 10px;
+  }
+
+  .descr2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    justify-content: center;
+    padding: 15px;
+  
+  }
+  
+  .layout footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 10px;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 48
+  }

@@ -4,6 +4,8 @@ import MapElement from "../components/MapElement"
 import GetAllNFT from "../components/GetAllNFT"
 import MintNFT from "../components/MintNFT"
 import GetUserNFT from "../components/GetUserNFT"
+import Description from "../components/Description"
+
 
 export default function Home() {
   const { isWeb3Enabled, account } = useMoralis()
@@ -23,6 +25,10 @@ export default function Home() {
           <GetAllNFT />
         </div>
       )}
+
+<div className="flex flex-col items-center justify-center">
+         <Description />
+            </div>
     </div>
   )
 }
